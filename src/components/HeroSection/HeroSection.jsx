@@ -13,7 +13,7 @@ import {
 } from "./HeroStyle";
 import { Bio } from "../../data/constants";
 import  Typewriter  from "typewriter-effect";
-import Ratnesh from "../../images/ratnesh_kumar.jpg"
+import Sachin from "../../images/sachin_img_4.jpg"
 import HeroBgAnimation from "../HeroBgAnimation";
 
 const HeroSection = () => {
@@ -48,7 +48,7 @@ const HeroSection = () => {
             
           </HeroLeftContainer>
           <HeroRightContainer>
-            <Img src={Ratnesh} alt="Hero"/>
+            <Img src={Sachin} alt="Hero"/>
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

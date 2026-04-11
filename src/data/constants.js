@@ -1,18 +1,19 @@
 export const Bio = {
-  name: "Ratnesh Kumar",
+  name: "Sachin Mishra",
   roles: [
     "Full Stack Developer",
     "Problem Solver",
     "Programmer",
-    "Cybersecurity Expert"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/cyberratnesh07",
+  github: "https://github.com/SachinKumarMishra87",
   resume:
-    "https://drive.google.com/file/d/1nCxkSHVgHWTxj8s8QmXhLHPF5JaRDAe-/view?usp=sharing",
-  linkedin: "http://linkedin.com/in/ratnesh-kumar-324010283",
-  geeksforgeeks: "https://www.geeksforgeeks.org/profile/mrratneshizz1"
+    "https://drive.google.com/file/d/1DgHXuprdW-LhwjUb_rhH6rxKzRpFtJF7/view",
+  linkedin: "https://www.linkedin.com/in/sachin-mishra87/",
+  twitter: "https://x.com/Sachin_Mishra_0",
+  geeksforgeeks: "https://www.geeksforgeeks.org/user/sachin_mishra_0_1/",
+  leatcode: "https://leetcode.com/u/SachinKumarMishra/",
 };
 
 export const skills = [
@@ -89,6 +90,11 @@ export const skills = [
     title: "Language",
     skills: [
       {
+        name: "Java",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+      },
+      {
         name: "C",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
@@ -107,31 +113,6 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-      },
-    ],
-  },
-  {
-    title: "Operating System",
-    skills: [
-      {
-        name: "Windows",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/1024px-Windows_logo_-_2012.svg.png",
-      },
-      {
-        name: "MacOS",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYuv5akOJBQPcjnTk7-eMZnNjEB6cl-ON5w&s",
-      },
-      {
-        name: "Linux",
-        image:
-          "https://logo.svgcdn.com/logos/linux-tux.png",
-      },
-      {
-        name: "Unix",
-        image:
-          "https://logo.svgcdn.com/token-branded/unix.png",
       },
     ],
   },
@@ -180,44 +161,32 @@ export const education = [
     img: "https://img.jagranjosh.com/images/2024/October/28102024/logo.jmf2.jpg",
     school: "Sanskriti University of Mathura",
     date: "Aug 2022 -  Aug 2025",
-    grade: "7CGPA",
+    grade: "7.50 CGPA",
     desc: "I have completed my Bachelor’s in Computer Applications from Sanskriti University, Mathura, with a CGPA of 7.50. During my course, I gained a strong foundation in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. Additionally, I am a Full Stack Web Developer, passionate about building modern web applications and collaborating with talented teams to create impactful projects.",
     degree: "Bachelor of Computer Application - BCA",
   },
   {
     id: 1,
-    img: "https://tse3.mm.bing.net/th/id/OIP.vIH1ZhpSHrL59MisKqwWfwHaIE?pid=Api&P=0&h=180",
-    school: "Shree Rana Inter College Dholna, Kasganj",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBuYOTsyLPsQawYiPOsjwCTQe_vgNSzLy05A&s",
+    school: "R.B.S.B. Singh Inter College, Sitapur",
     date: "April 2020 - April 2022",
-    grade: "72%",
-    desc: "I completed my Class 12 education at Shree Rana Inter College Dholna Kasganj, where I pursued Science.",
+    grade: "72.3%",
+    desc: "I completed my Class 12 education at R.B.S.B. Singh Inter College, Sitapur, where I pursued Science.",
     degree: "UP Board (Class XII), Science",
   },
   {
     id: 2,
-    img: "https://tse3.mm.bing.net/th/id/OIP.vIH1ZhpSHrL59MisKqwWfwHaIE?pid=Api&P=0&h=180",
-    school: "B.D.P. International School Lodhai Chharra, Aligarh",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBuYOTsyLPsQawYiPOsjwCTQe_vgNSzLy05A&s",
+    school: "R.B.S.B. Singh Inter College, Sitapur",
     date: "April 2018 - April 2020",
-    grade: "75%",
-    desc: "I completed my Class 10 education at B.D.P. International School Lodhai Chharra Aligarh, with a focus on Science and Computer.",
+    grade: "65.9%",
+    desc: "I completed my Class 10 education at R.B.S.B. Singh Inter College, Sitapur, with a focus on Science and Computer.",
     degree: "UP Board (Class X), Science with Computer",
   },
 
 ];
 
 export const projects = [
-  {
-    id: 0,
-    title: "Country Data",
-    date: "June 2024",
-    description:
-      "Developed a responsive React web application that allows users to search and filter countries, view detailed data for each country, and navigate to individual country pages with comprehensive information. Implemented light and dark mode for enhanced user experience, providing seamless switching between themes.",
-    image:
-      "https://m.media-amazon.com/images/I/713Kfl8uoZL._AC_SX679_.jpg",
-    tags: ["React Js", "API"],
-    category: "web app",
-    webapp: "https://countriesapi-proje.netlify.app/",
-  },
   {
     id: 1,
     title: "E-Commerce",
@@ -228,22 +197,25 @@ export const projects = [
       "https://www.91-cdn.com/hub/wp-content/uploads/2023/04/Blinkit-instant-grocery-delivery-app.jpg",
     tags: ["React Js", "API", "Node Js", "Express Js", "Mongodb", "Payment Gatway"],
     category: "web app",
+    github: "https://github.com/SachinKumarMishra87/Binkeyit-fullstack",
     webapp: "https://binkeyit-fullstack-gnn6.vercel.app/",
   },
   {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    id: 2,
+    title: "100 Days POTD with GFG",
+    date: "September 2024",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      `I'm excited to share that I've successfully completed 110 days of the GeeksforGeeks DSA Problem of the Day (POTD) challenge! 🎯`,
     image:
-      "https://raw.githubusercontent.com/codedex-io/projects/main/projects/create-a-to-do-list-app-with-html-css-js/finished-todo-list.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    webapp: "https://rishav-react-todo.netlify.app/",
+      "https://media.geeksforgeeks.org/img-practice/Problemofthedaynewcopy-1637640589.png",
+    tags: ["Two pointer", "Sliding window", "Tree","Dynamic Programming", "Graph"],
+    category: "dsa app",
+    github: "https://github.com/SachinKumarMishra87/DSA-POTD-questions-",
   },
+
+
   {
-    id: 6,
+    id: 8,
     title: "Mern Authentication",
     date: "March 2025",
     description:
@@ -252,6 +224,7 @@ export const projects = [
       "https://galaxy.ai/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F7BTsepZ9xp8%2Fmaxresdefault.jpg&w=3840&q=75",
     tags: ["React", "Tailwind Css", "Node js", "Express js", "MongoDB"],
     category: "web app",
+    github: "https://github.com/SachinKumarMishra87/MernCompleteAuth",
     webapp: "https://mern-complete-authentication.vercel.app",
   },
 ];

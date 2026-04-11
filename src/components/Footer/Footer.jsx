@@ -216,19 +216,19 @@ function Footer() {
     <FooterContainer>
       <FooterContent>
         <div className="">
-          <FooterLeft>Ratnesh Kumar</FooterLeft>
-          <FooterEmail>mrratneshkumar07@gmail.com</FooterEmail>
+          <FooterLeft>Sachin Mishra</FooterLeft>
+          <FooterEmail>sachinmishra8707@gmail.com</FooterEmail>
           <WhatSappNumberDiv>
             <IconLink
-              href="https://wa.me/917668798384"
+              href="https://wa.me/918707625097"
               rel="noopener noreferrer"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <FaWhatsapp size={25} />
+              <FaWhatsapp size={25}/>
               <Tooltip>Whatsapp</Tooltip>
             </IconLink>
-            <FooterContactNumber>+91 76687 98384</FooterContactNumber>
+            <FooterContactNumber>+91 87076 25097</FooterContactNumber>
           </WhatSappNumberDiv>
         </div>
         <NavItems>
@@ -255,11 +255,28 @@ function Footer() {
             <GfgIcon />
             <Tooltip>GeeksforGeeks</Tooltip>
           </IconLink>
+          <IconLink
+            href={Bio.leatcode}
+            target="_blank"
+            aria-label="LeetCode"
+          >
+            <LeetcodeIcon />
+            <Tooltip>LeetCode</Tooltip>
+          </IconLink>
+          <IconLink
+            href={Bio.twitter}
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <TwitterIcon />
+            <Tooltip>Twitter</Tooltip>
+          </IconLink>
+
         </FooterCenter>
 
       </FooterContent>
       <RightsReserved>
-        &copy; {new Date().getFullYear()} <FooterSpan>Ratnesh Kumar</FooterSpan>. All rights reserved.
+        &copy; {new Date().getFullYear()} <FooterSpan>Sachin Mishra</FooterSpan>. All rights reserved.
       </RightsReserved>
     </FooterContainer>
   );

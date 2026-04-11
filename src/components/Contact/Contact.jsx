@@ -31,7 +31,7 @@ const Contact = () => {
   const sendEmail = (values) => {
     setIsLoaded(true);
     emailjs
-      .send("service_9wpfyjp", "template_efpx63l", values, "BPQPQGzJX4eHSbZjI")
+      .send("service_lm76uz7", "template_fok7ssj", values, "cCCYgfLaagh_erek2")
       .then(
         () => {
           console.log("SUCCESS!");
