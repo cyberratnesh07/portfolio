@@ -6,10 +6,12 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    `
+    Backend Developer @ TCS (1+ Years Experience)
+    Specializing in the MERN Stack, REST APIs, and building intelligent web applications using GenAI, Agentic AI, & LangGraph. Strong problem solver with 250+ DSA problems solved.`,
   github: "https://github.com/SachinKumarMishra87",
   resume:
-    "https://drive.google.com/file/d/1DgHXuprdW-LhwjUb_rhH6rxKzRpFtJF7/view",
+    "https://drive.google.com/file/d/1rYTDYNHUne_9Cdv3jNhavtFCdll3UpWZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sachin-mishra87/",
   twitter: "https://x.com/Sachin_Mishra_0",
   geeksforgeeks: "https://www.geeksforgeeks.org/user/sachin_mishra_0_1/",
@@ -161,7 +163,7 @@ export const education = [
     img: "https://img.jagranjosh.com/images/2024/October/28102024/logo.jmf2.jpg",
     school: "Sanskriti University of Mathura",
     date: "Aug 2022 -  Aug 2025",
-    grade: "7.50 CGPA",
+    grade: "7.35 CGPA",
     desc: "I have completed my Bachelor’s in Computer Applications from Sanskriti University, Mathura, with a CGPA of 7.50. During my course, I gained a strong foundation in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. Additionally, I am a Full Stack Web Developer, passionate about building modern web applications and collaborating with talented teams to create impactful projects.",
     degree: "Bachelor of Computer Application - BCA",
   },
@@ -188,6 +190,20 @@ export const education = [
 
 export const projects = [
   {
+    id: 7,
+    title: "LeetPat-Tracker",
+    date: "June 2026",
+    description:
+      `Developed an AI-powered application that helps users master
+DSA through a structured Topic → Pattern → Question approach.`,
+    image:
+      "https://user17898.na.imgto.link/public/20260725/screenshot-2026-07-25-152946.avif",
+    tags: ["React Js", "Node Js", "Express Js", "Mongodb", "OpenRouter API", "Langchain",],
+    category: "web app",
+    github: "https://github.com/SachinKumarMishra87/coding-tracker",
+    webapp: "https://www.leetpattracker.in/",
+  },
+  {
     id: 1,
     title: "E-Commerce",
     date: "January 2025",
@@ -208,7 +224,7 @@ export const projects = [
       `I'm excited to share that I've successfully completed 110 days of the GeeksforGeeks DSA Problem of the Day (POTD) challenge! 🎯`,
     image:
       "https://media.geeksforgeeks.org/img-practice/Problemofthedaynewcopy-1637640589.png",
-    tags: ["Two pointer", "Sliding window", "Tree","Dynamic Programming", "Graph"],
+    tags: ["Two pointer", "Sliding window", "Tree", "Dynamic Programming", "Graph"],
     category: "dsa app",
     github: "https://github.com/SachinKumarMishra87/DSA-POTD-questions-",
   },
